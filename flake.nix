@@ -33,6 +33,8 @@
               }"
             '';
             packages = with pkgs; [
+              wgsl-analyzer
+              rustfmt
               rustc
               cargo
               cargo-deny
